@@ -1,0 +1,16 @@
+{
+  "name": "upflow-backend",
+  "version": "1.0.0",
+  "description": "Backend proxy para chamadas de API",
+  "main": "api/generate-payment.js",
+  "scripts": {
+    "start": "node api/generate-payment.js"
+  },
+  "dependencies": {
+    "firebase-admin": "^11.11.0",
+    "cors": "^2.8.5"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
